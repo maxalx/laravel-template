@@ -8,12 +8,28 @@
 
 ## Установка
 
-Устанавливаем зависимости, создаём файл с переменными окружения и генерируем новый ключ для проекта:
+Устанавливаем зависимости:
 
 ```bash
 composer install
+```
+
+Cоздаём файл с переменными окружения:
+
+```bash
 cp .env.example .env
+```
+
+Генерируем новый ключ для проекта:
+
+```bash
 php artisan key:generate
+```
+
+Генерируем файлы laravel-ide-helper (https://github.com/barryvdh/laravel-ide-helper):
+
+```bash
+composer run ide-helper
 ```
 
 ## Локальная разработка
