@@ -51,3 +51,23 @@ composer run ide-helper
 В docker-окружении доступны MySQL, Redis и Mailhog.
 
 Mailhog предоставляет веб-интерфейс для мониторинга отправляемых электронных писем на порту 8025 в дефолтной конфигурации - http://localhost:8025.
+
+## Доступные скрипты
+
+Проверка кода на соответствие code-style:
+
+```bash
+composer run sniff
+```
+
+Проверка и исправление кода по code-style:
+
+```bash
+composer run lint
+```
+
+Запуска статического анализа кода:
+
+```bash
+composer run analise
+```
