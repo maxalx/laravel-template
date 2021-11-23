@@ -19,7 +19,7 @@ $rules = [
     'class_attributes_separation' => [
         'elements' => [
             'method' => 'one',
-            'trait_import' => 'one',
+            'trait_import' => 'none',
         ],
     ],
     'class_definition' => true,
