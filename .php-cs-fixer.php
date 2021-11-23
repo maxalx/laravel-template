@@ -17,7 +17,10 @@ $rules = [
     'braces' => true,
     'cast_spaces' => true,
     'class_attributes_separation' => [
-        'elements' => ['method' => 'one'],
+        'elements' => [
+            'method' => 'one',
+            'trait_import' => 'one',
+        ],
     ],
     'class_definition' => true,
     'concat_space' => [
@@ -50,7 +53,6 @@ $rules = [
             'extra',
             'throw',
             'use',
-            'use_trait',
         ],
     ],
     'no_blank_lines_after_class_opening' => true,
