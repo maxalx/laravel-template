@@ -1,4 +1,4 @@
-name: Staic Analisis
+name: Static Analysis
 
 on:
   push:
