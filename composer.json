@@ -20,6 +20,7 @@
         "laravel/sail": "^1.12",
         "mockery/mockery": "^1.4.4",
         "nunomaduro/collision": "^5.10",
+        "nunomaduro/larastan": "^1.0",
         "phpstan/phpstan": "^1.2",
         "phpunit/phpunit": "^9.5.10"
     },
@@ -64,7 +65,7 @@
             "@php artisan ide-helper:meta"
         ],
         "analise": [
-            "vendor/bin/phpstan analyse --level 5 app"
+            "vendor/bin/phpstan analyse --level=5 --memory-limit=256M app"
         ]
     },
     "extra": {
