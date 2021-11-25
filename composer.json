@@ -65,7 +65,7 @@
             "@php artisan ide-helper:meta"
         ],
         "analise": [
-            "vendor/bin/phpstan analyse --level=5 --memory-limit=256M app"
+            "vendor/bin/phpstan analyse --memory-limit=256M"
         ]
     },
     "extra": {
