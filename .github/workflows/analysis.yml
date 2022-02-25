@@ -18,3 +18,4 @@ jobs:
         with:
           configuration: phpstan.neon.dist
           memory_limit: 256M
+          php_version: 7.4
