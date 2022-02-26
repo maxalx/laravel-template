@@ -6,8 +6,8 @@ use PhpCsFixer\Finder;
 $rules = [
     'array_syntax' => ['syntax' => 'short'],
     'binary_operator_spaces' => [
-        'default' => 'single_space',
-        'operators' => ['=>' => null],
+        'default' => 'align_single_space_minimal',
+        'operators' => ['=>' => 'align_single_space_minimal'],
     ],
     'blank_line_after_namespace' => true,
     'blank_line_after_opening_tag' => true,
@@ -88,6 +88,7 @@ $rules = [
     'object_operator_without_whitespace' => true,
     'ordered_imports' => ['sort_algorithm' => 'alpha'],
     'phpdoc_indent' => true,
+    'phpdoc_align' => ['align' => 'vertical'],
     'general_phpdoc_tag_rename' => true,
     'phpdoc_inline_tag_normalizer' => true,
     'phpdoc_tag_type' => true,
